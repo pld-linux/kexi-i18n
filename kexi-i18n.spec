@@ -3,7 +3,7 @@ Summary(pl):	Kexi - wsparcie dla wielu jêzyków
 Name:		kexi-i18n
 Version:	0.1
 %define	_snap	20041220
-Release:	0.%{_snap}.1
+Release:	0.%{_snap}.2
 License:	GPL
 Group:		X11/Applications
 Source0:	%{name}-%{_snap}.tar.bz2
@@ -12,10 +12,48 @@ Source0:	%{name}-%{_snap}.tar.bz2
 BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.2
 BuildArch:	noarch
+Obsoletes:	kexi-i18n-base
+Obsoletes:	kexi-i18n-Brazil_Portuguese
+Obsoletes:	kexi-i18n-Breton
+Obsoletes:	kexi-i18n-Bulgarian
+Obsoletes:	kexi-i18n-Catalan
+Obsoletes:	kexi-i18n-Croatian
+Obsoletes:	kexi-i18n-Cymraeg
+Obsoletes:	kexi-i18n-Czech
+Obsoletes:	kexi-i18n-Danish
+Obsoletes:	kexi-i18n-Dutch
+Obsoletes:	kexi-i18n-English_UK
+Obsoletes:	kexi-i18n-Estonian
+Obsoletes:	kexi-i18n-Faroese
+Obsoletes:	kexi-i18n-French
+Obsoletes:	kexi-i18n-German
+Obsoletes:	kexi-i18n-Greek
+Obsoletes:	kexi-i18n-Hebrew
+Obsoletes:	kexi-i18n-Hungarian
+Obsoletes:	kexi-i18n-Irish
+Obsoletes:	kexi-i18n-Italian
+Obsoletes:	kexi-i18n-Lao
+Obsoletes:	kexi-i18n-Norwegian_Bokmaal
+Obsoletes:	kexi-i18n-Norwegian_Nynorsk
+Obsoletes:	kexi-i18n-Polish
+Obsoletes:	kexi-i18n-Portuguese
+Obsoletes:	kexi-i18n-Romanian
+Obsoletes:	kexi-i18n-Russian
+Obsoletes:	kexi-i18n-Serbian
+Obsoletes:	kexi-i18n-Simplified_Chinese
+Obsoletes:	kexi-i18n-Slovak
+Obsoletes:	kexi-i18n-Slovenian
+Obsoletes:	kexi-i18n-Spanish
+Obsoletes:	kexi-i18n-Swedish
+Obsoletes:	kexi-i18n-Tajik
+Obsoletes:	kexi-i18n-Tamil
+Obsoletes:	kexi-i18n-Turkish
+Obsoletes:	kexi-i18n-Uzbek
+Obsoletes:	kexi-i18n-Zulu
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Kexi - international support.
+Kexi - international language support.
 
 %description -l pl
 Kexi - wsparcie dla wielu jêzyków.
@@ -25,6 +63,7 @@ Summary:	Empty metapackage to handle obsoletes
 Summary(pl):	Pusty metapakiet z obsoletes
 Group:		X11/Applications
 Requires:	kde-i18n-base
+Obsoletes:	kexi-i18n
 
 %description base
 Empty metapackage to handle obsoletes for individual i18n subpackages.
@@ -986,14 +1025,15 @@ FindLang zh_CN Simplified_Chinese
 ##FindLang zh_TW Chinese
 FindLang zu Zulu
 
-
+%find_lang kexi
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%files -f kexi.lang
+%defattr(644,root,root,755)
 %files base
 %defattr(644,root,root,755)
-
 #%%files -f Afrikaans.lang Afrikaans
 #%%defattr(644,root,root,755)
 #%%files -f Arabic.lang Arabic
