@@ -8,7 +8,6 @@ License:	GPL
 Group:		X11/Applications
 Source0:	%{name}-%{_snap}.tar.bz2
 # Source0-md5:	63d391a6df08fb4ac2825f46a22712f5
-# Source0-size:	27798685
 BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.2
 BuildArch:	noarch
