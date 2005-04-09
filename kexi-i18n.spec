@@ -2,12 +2,12 @@ Summary:	Kexi - international support
 Summary(pl):	Kexi - wsparcie dla wielu jêzyków
 Name:		kexi-i18n
 Version:	0.1
-%define	_snap	20041220
-Release:	0.%{_snap}.2
+%define	_snap	20050408
+Release:	0.%{_snap}.1
 License:	GPL
 Group:		X11/Applications
 Source0:	%{name}-%{_snap}.tar.bz2
-# Source0-md5:	63d391a6df08fb4ac2825f46a22712f5
+# Source0-md5:	f53cabc0c71ece001851adecab27e328
 BuildRequires:	gettext-devel
 BuildRequires:	kdelibs-devel >= 9:3.2
 BuildArch:	noarch
