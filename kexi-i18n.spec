@@ -312,10 +312,10 @@ Kexi - Finnish language support.
 Kexi - wsparcie dla jêzyka fiñskiego.
 
 %package Faroese
-Summary:        Kexi - Faroese language support
-Summary(pl):    Kexi - wsparcie dla jêzyka faroezyjskiego
-Group:          X11/Applications
-Requires:       %{name}-base = %{version}-%{release}
+Summary:	Kexi - Faroese language support
+Summary(pl):	Kexi - wsparcie dla jêzyka faroezyjskiego
+Group:		X11/Applications
+Requires:	%{name}-base = %{version}-%{release}
 
 %description Faroese
 Kexi - Faroese language support.
