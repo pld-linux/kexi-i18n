@@ -5,7 +5,7 @@ Version:	0.1
 %define	_snap	20050408
 Release:	0.%{_snap}.1
 License:	GPL
-Group:		X11/Applications
+Group:		I18n
 Source0:	%{name}-%{_snap}.tar.bz2
 # Source0-md5:	f53cabc0c71ece001851adecab27e328
 BuildRequires:	gettext-devel
@@ -60,7 +60,7 @@ Kexi - wsparcie dla wielu języków.
 %package base
 Summary:	Empty metapackage to handle obsoletes
 Summary(pl.UTF-8):	Pusty metapakiet z obsoletes
-Group:		X11/Applications
+Group:		I18n
 Requires:	kde-i18n-base
 Obsoletes:	kexi-i18n
 
@@ -73,7 +73,7 @@ Pusty metapakiet z Obsoletes dla oddzielnych podpakietów i18n.
 %package Afrikaans
 Summary:	Kexi - Afrikaans language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka afrykanerskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Afrikaans
@@ -85,7 +85,7 @@ Kexi - wsparcie dla języka afrykanerskiego.
 %package Arabic
 Summary:	Kexi - Arabic language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka arabskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Arabic
@@ -97,7 +97,7 @@ Kexi - wsparcie dla języka arabskiego.
 %package Azerbaijani
 Summary:	Kexi - Azerbaijani language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka azerskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Azerbaijani
@@ -109,7 +109,7 @@ Kexi - wsparcie dla języka azerskiego.
 %package Bulgarian
 Summary:	Kexi - Bulgarian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka bułgarskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Bulgarian
@@ -121,7 +121,7 @@ Kexi - wsparcie dla języka bułgarskiego.
 %package Breton
 Summary:	Kexi - Breton language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka bretońskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Breton
@@ -133,7 +133,7 @@ Kexi - wsparcie dla języka bretońskiego.
 %package Bosnian
 Summary:	Kexi - Bosnian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka bośniackiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Bosnian
@@ -145,7 +145,7 @@ Kexi - wsparcie dla języka bośniackiego.
 %package Catalan
 Summary:	Kexi - Catalan language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka katalońskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Catalan
@@ -157,7 +157,7 @@ Kexi - wsparcie dla języka katalońskiego.
 %package Czech
 Summary:	Kexi - Czech language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka czeskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Czech
@@ -169,7 +169,7 @@ Kexi - wsparcie dla języka czeskiego.
 %package Cymraeg
 Summary:	Kexi - Cymraeg language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka walijskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Cymraeg
@@ -181,7 +181,7 @@ Kexi - wsparcie dla języka walijskiego.
 %package Danish
 Summary:	Kexi - Danish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka duńskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Danish
@@ -193,7 +193,7 @@ Kexi - wsparcie dla języka duńskiego.
 %package German
 Summary:	Kexi - German language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka niemieckiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description German
@@ -205,7 +205,7 @@ Kexi - wsparcie dla języka niemieckiego.
 %package Greek
 Summary:	Kexi - Greek language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka greckiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Greek
@@ -217,7 +217,7 @@ Kexi - wsparcie dla języka greckiego.
 %package English
 Summary:	Kexi - English language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka angielskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description English
@@ -229,7 +229,7 @@ Kexi - wsparcie dla języka angielskiego.
 %package English_UK
 Summary:	Kexi - English (UK) language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka angielskiego (odmiany brytyjskiej)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description English_UK
@@ -241,7 +241,7 @@ Kexi - wsparcie dla języka angielskiego (odmiany brytyjskiej).
 %package Esperanto
 Summary:	Kexi - Esperanto language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka esperanto
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Esperanto
@@ -253,7 +253,7 @@ Kexi - wsparcie dla języka esperanto.
 %package Spanish
 Summary:	Kexi - Spanish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka hiszpańskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Spanish
@@ -265,7 +265,7 @@ Kexi - wsparcie dla języka hiszpańskiego.
 %package Estonian
 Summary:	Kexi - Estonian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka estońskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Estonian
@@ -277,7 +277,7 @@ Kexi - wsparcie dla języka estońskiego.
 %package Basque
 Summary:	Kexi - Basque language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka baskijskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Basque
@@ -289,7 +289,7 @@ Kexi - wsparcie dla języka baskijskiego.
 %package Farsi
 Summary:	Kexi - Farsi language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka perskiego (farsi)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Farsi
@@ -302,7 +302,7 @@ Kexi - wsparcie dla języka perskiego (farsi).
 %package Finnish
 Summary:	Kexi - Finnish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka fińskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Finnish
@@ -314,7 +314,7 @@ Kexi - wsparcie dla języka fińskiego.
 %package Faroese
 Summary:	Kexi - Faroese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka faroezyjskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Faroese
@@ -326,7 +326,7 @@ Kexi - wsparcie dla języka faroezyjskiego.
 %package French
 Summary:	Kexi - French language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka francuskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description French
@@ -338,7 +338,7 @@ Kexi - wsparcie dla języka francuskiego.
 %package Irish
 Summary:	Kexi - Irish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka irlandzkiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Irish
@@ -350,7 +350,7 @@ Kexi - wsparcie dla języka irlandzkiego.
 %package Galician
 Summary:	Kexi - Galician language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka galicyjskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Galician
@@ -362,7 +362,7 @@ Kexi - wsparcie dla języka galicyjskiego.
 %package Hindi
 Summary:	Kexi - Hindi language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka hindi
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Hindi
@@ -374,7 +374,7 @@ Kexi - wsparcie dla języka hindi.
 %package Hebrew
 Summary:	Kexi - Hebrew language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka hebrajskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Hebrew
@@ -386,7 +386,7 @@ Kexi - wsparcie dla języka hebrajskiego.
 %package Croatian
 Summary:	Kexi - Croatian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka chorwackiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Croatian
@@ -398,7 +398,7 @@ Kexi - wsparcie dla języka chorwackiego.
 %package Hungarian
 Summary:	Kexi - Hungarian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka węgierskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Hungarian
@@ -410,7 +410,7 @@ Kexi - wsparcie dla języka węgierskiego.
 %package Upper_Sorbian
 Summary:	Kexi - Upper Sorbian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka górnołużyckiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Upper_Sorbian
@@ -422,7 +422,7 @@ Kexi - wsparcie dla języka górnołużyckiego.
 %package Indonesian
 Summary:	Kexi - Indonesian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka indonezyjskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Indonesian
@@ -434,7 +434,7 @@ Kexi - wsparcie dla języka indonezyjskiego.
 %package Icelandic
 Summary:	Kexi - Icelandic language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka islandzkiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Icelandic
@@ -446,7 +446,7 @@ Kexi - wsparcie dla języka islandzkiego.
 %package Italian
 Summary:	Kexi - Italian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka włoskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Italian
@@ -458,7 +458,7 @@ Kexi - wsparcie dla języka włoskiego.
 %package Japanese
 Summary:	Kexi - Japanese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka japońskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Japanese
@@ -470,7 +470,7 @@ Kexi - wsparcie dla języka japońskiego.
 %package Korean
 Summary:	Kexi - Korean language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka koreańskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Korean
@@ -482,7 +482,7 @@ Kexi - wsparcie dla języka koreańskiego.
 %package Lithuanian
 Summary:	Kexi - Lithuanian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka litewskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Lithuanian
@@ -494,7 +494,7 @@ Kexi - Wsparcie dla języka litewskiego.
 %package Lao
 Summary:	Kexi - Lao language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka laotańskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Lao
@@ -506,7 +506,7 @@ Kexi - wsparcie dla języka laotańskiego.
 %package Latvian
 Summary:	Kexi - Latvian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka łotewskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Latvian
@@ -518,7 +518,7 @@ Kexi - wsparcie dla języka łotewskiego.
 %package Maori
 Summary:	Kexi - Maori language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka maoryjskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Maori
@@ -530,7 +530,7 @@ Kexi - wsparcie dla języka maoryjskiego.
 %package Macedonian
 Summary:	Kexi - Macedonian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka macedońskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Macedonian
@@ -542,7 +542,7 @@ Kexi - wsparcie dla języka macedońskiego.
 %package Malay
 Summary:	Kexi - Malay language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka malajskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Malay
@@ -554,7 +554,7 @@ Kexi - wsparcie dla języka malajskiego.
 %package Maltese
 Summary:	Kexi - Maltese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka maltańskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Maltese
@@ -566,7 +566,7 @@ Kexi - wsparcie dla języka maltańskiego.
 %package Mongolian
 Summary:	Kexi - Mongolian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka mongolskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Mongolian
@@ -578,7 +578,7 @@ Kexi - wsparcie dla języka mongolskiego.
 %package Dutch
 Summary:	Kexi - Dutch language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka holenderskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Dutch
@@ -590,7 +590,7 @@ Kexi - wsparcie dla języka holenderskiego.
 %package Norwegian_Bokmaal
 Summary:	Kexi - Norwegian (Bokmaal) language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka norweskiego (odmiany bokmaal)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Norwegian_Bokmaal
@@ -602,7 +602,7 @@ Kexi - wsparcie dla języka norweskiego (odmiany bokmaal).
 %package Norwegian_Nynorsk
 Summary:	Kexi - Norwegian (Nynorsk) language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka norweskiego (odmiany nynorsk)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Norwegian_Nynorsk
@@ -614,7 +614,7 @@ Kexi - wsparcie dla języka norweskiego (odmiany nynorsk).
 %package Northern_Sotho
 Summary:	Kexi - Northern Sotho language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla północnej odmiany języka ludu Soto
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Northern_Sotho
@@ -626,7 +626,7 @@ Kexi - wsparcie dla północnej odmiany języka ludu Soto.
 %package Gascon_occitan
 Summary:	Kexi - Occitan (Gascon) language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka oksytańskiego (dialektu gaskońskiego)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Gascon_occitan
@@ -638,7 +638,7 @@ Kexi - wsparcie dla języka oksytańskiego (dialektu gaskońskiego).
 %package Polish
 Summary:	Kexi - Polish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka polskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Polish
@@ -650,7 +650,7 @@ Kexi - wsparcie dla języka polskiego.
 %package Portuguese
 Summary:	Kexi - Portuguese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka portugalskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Portuguese
@@ -662,7 +662,7 @@ Kexi - wsparcie dla języka portugalskiego.
 %package Brazil_Portuguese
 Summary:	Kexi - Portuguese (Brazil) language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka portugalskiego (odmiany brazylijskiej)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Brazil_Portuguese
@@ -674,7 +674,7 @@ Kexi - wsparcie dla języka portugalskiego (odmiany brazylijskiej).
 %package Romanian
 Summary:	Kexi - Romanian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka rumuńskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Romanian
@@ -686,7 +686,7 @@ Kexi - wsparcie dla języka rumuńskiego.
 %package Russian
 Summary:	Kexi - Russian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka rosyjskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Russian
@@ -698,7 +698,7 @@ Kexi - wsparcie dla języka rosyjskiego.
 %package Swati
 Summary:	Kexi - Swati language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka swati
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Swati
@@ -710,7 +710,7 @@ Kexi - wsparcie dla języka swati.
 %package Northern_Sami
 Summary:	Kexi - Northern Sami language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla północnego języka saami (lapońskiego)
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Northern_Sami
@@ -722,7 +722,7 @@ Kexi - wsparcie dla północnego języka saami (lapońskiego).
 %package Slovak
 Summary:	Kexi - Slovak language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka słowackiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Slovak
@@ -734,7 +734,7 @@ Kexi - wsparcie dla języka słowackiego.
 %package Slovenian
 Summary:	Kexi - Slovenian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka słoweńskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Slovenian
@@ -746,7 +746,7 @@ Kexi - wsparcie dla języka słoweńskiego.
 %package Serbian
 Summary:	Kexi - Serbian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka serbskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Serbian
@@ -758,7 +758,7 @@ Kexi - wsparcie dla języka serbskiego.
 %package Swedish
 Summary:	Kexi - Swedish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka szwedzkiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Swedish
@@ -770,7 +770,7 @@ Kexi - wsparcie dla języka szwedzkiego.
 %package Tamil
 Summary:	Kexi - Tamil language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka tamilskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Tamil
@@ -782,7 +782,7 @@ Kexi - wsparcie dla języka tamilskiego.
 %package Tajik
 Summary:	Kexi - Tajik language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka tadżyckiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Tajik
@@ -794,7 +794,7 @@ Kexi - wsparcie dla języka tadżyckiego.
 %package Thai
 Summary:	Kexi - Thai language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka tajlandzkiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Thai
@@ -806,7 +806,7 @@ Kexi - wsparcie dla języka tajlandzkiego.
 %package Turkish
 Summary:	Kexi - Turkish language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka tureckiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Turkish
@@ -818,7 +818,7 @@ Kexi - wsparcie dla języka tureckiego.
 %package Ukrainian
 Summary:	Kexi - Ukrainian language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka ukraińskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Ukrainian
@@ -830,7 +830,7 @@ Kexi - wsparcie dla języka ukraińskiego.
 %package Uzbek
 Summary:	Kexi - Uzbek language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka uzbeckiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Uzbek
@@ -842,7 +842,7 @@ Kexi - wsparcie dla języka uzbeckiego.
 %package Venda
 Summary:	Kexi - Venda language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka venda
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Venda
@@ -854,7 +854,7 @@ Kexi - wsparcie dla języka venda.
 %package Vietnamese
 Summary:	Kexi - Vietnamese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka wietnamskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Vietnamese
@@ -866,7 +866,7 @@ Kexi - wsparcie dla języka wietnamskiego.
 %package Walloon
 Summary:	Kexi - Walloon language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka walońskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Walloon
@@ -878,7 +878,7 @@ Kexi - wsparcie dla języka walońskiego.
 %package Xhosa
 Summary:	Kexi - Xhosa language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka khosa
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Xhosa
@@ -890,7 +890,7 @@ Kexi - wsparcie dla języka khosa.
 %package Simplified_Chinese
 Summary:	Kexi - simplified Chinese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla uproszczonego języka chińskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Simplified_Chinese
@@ -902,7 +902,7 @@ Kexi - wsparcie dla uproszczonego języka chińskiego.
 %package Chinese
 Summary:	Kexi - Chinese language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka chińskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Chinese
@@ -914,7 +914,7 @@ Kexi - wsparcie dla języka chińskiego.
 %package Zulu
 Summary:	Kexi - Zulu language support
 Summary(pl.UTF-8):	Kexi - wsparcie dla języka zuluskiego
-Group:		X11/Applications
+Group:		I18n
 Requires:	%{name}-base = %{version}-%{release}
 
 %description Zulu
