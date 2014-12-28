@@ -8,7 +8,7 @@ License:	GPL
 Group:		I18n
 Source0:	%{name}-%{_snap}.tar.bz2
 # Source0-md5:	f53cabc0c71ece001851adecab27e328
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	kdelibs-devel >= 9:3.2
 BuildArch:	noarch
 Obsoletes:	kexi-i18n-base
